@@ -1,0 +1,372 @@
+/*reset css*/
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	
+}
+
+html::-webkit-scrollbar {
+    display: none;
+}
+
+body{
+	background-color: #ffffff;
+}
+
+h1{
+	font-family: 'Josefin Sans', sans-serif;
+}
+
+h2{
+	font-family: 'Josefin Sans', sans-serif;
+}
+
+#container{
+	background-color: #ffffff;
+	width: 960px;
+	margin-left: auto;
+	margin-right: auto;
+	
+
+}
+
+header{
+	background-color: none;
+	float:left;
+	padding-top: 5px;
+	height: 50px;
+	width: 80px;
+
+	
+	 
+}
+
+nav{
+	height: 60px;
+	background-color: none;
+	float: right;
+	
+
+	}
+
+
+nav ul{
+	list-style-type: none;
+	font-family: 'Josefin Sans', sans-serif;
+	padding-top: 10px;
+	
+
+	
+}
+
+nav li{
+	display: inline;
+	font-size: 15px;
+	font-weight: bold;
+	
+
+}
+
+nav a:link, nav a:visited{
+	color: #004D44;
+	display:inline-block;
+	padding-top: 10px;
+	padding-bottom: 5px;
+	margin-right: 15px;
+	margin-left: 15px;
+	float: right;
+	text-decoration:none;
+
+}
+
+nav a:hover{
+	
+	color: #F5A800;
+
+}
+
+
+section{
+	background-color: #ffffff;
+	width:680px;/* width 700px*/
+	height: 290px;/* height 300px*/
+	float: right;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 10px;
+ 
+}
+
+section h2{
+	font-family: 'Josefin Sans', sans-serif;
+	padding-top: 20px;
+	padding-left: 0px;
+	padding-right: 20px;
+	float: left;
+}
+
+section h3{
+	font-family: 'Josefin Sans', sans-serif;
+	height: 100px;
+	padding-top: 20px;
+	padding-left: 0px;
+	padding-right: 20px;
+	float: left;
+}
+
+#p{
+	font-family: 'Josefin Sans', sans-serif;
+	padding-top: 20px;
+	padding-left: 140px;
+	padding-right: 20px;
+}
+
+
+section p{
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 11pt;
+	padding-top: 20px;
+	padding-left: 90px;
+	padding-right: 20px;
+}
+
+section ul{
+	padding-top: 15px;
+	padding-left: 110px;
+	font-family: 'Josefin Sans', sans-serif;
+	list-style-type: none;
+}
+
+section ul li{
+	padding-top: 6px;
+	font-size: 11pt;
+}
+
+/*section*/
+#contactpage{
+	background-color: #ffffff;
+	width:680px;/* width 700px*/
+	height: 290px;/* height 300px*/
+	float: right;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 10px;
+ 
+}
+
+#contactpage ul{
+	padding-top: 15px;
+	padding-left: 180px;
+	font-family: 'Josefin Sans', sans-serif;
+	list-style-type: none;
+}
+
+#contactpage ul li{
+	padding-top: 5px;
+}
+
+aside{
+	background-color: #ffffff;
+	width: 240px; /* width 260px */
+	height: 290px; /* height 300px*/
+	float: left;
+	/*padding-left: 10px;
+	padding-right: 10px;*/
+	padding-top: 10px;
+
+}
+
+
+aside h1{
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 30px;
+}
+
+aside h1 img{
+
+	
+	margin-top: 20PX;
+}
+
+aside h2{
+	font-family: 'Josefin Sans', sans-serif;
+	padding-top: 20px;
+	padding-left: 0px;
+	padding-right: 20px;
+	
+}
+
+aside h3{
+	font-family: 'Josefin Sans', sans-serif;
+	padding-top: 20px;
+	padding-left: 0px;
+	padding-right: 20px;
+	
+}
+
+aside ul{
+	padding-top: 15px;
+	padding-left: 0px;
+	font-family: 'Josefin Sans', sans-serif;
+	list-style-type: none;
+}
+
+aside ul li{
+	padding-top: 6px;
+	font-size: 11pt;
+}
+
+
+#banner{
+
+	background-color: none;
+	width: 960px;/*width=960px */
+	height: 100%;
+	float:left;
+	text-align: center;
+}
+
+#column1{
+
+	background-color: #F5A800;
+	width: 920px;/*width=960px */
+	height: 190px;
+	float:left;
+	padding-top: 110px;
+	padding-left: 20px;
+	padding-right: 20px;
+	text-align: center;
+	text-decoration: none;
+}
+
+#column1 h1 a:link, h1 a:visited{
+	font-size: 80px;
+	text-align: center;
+	color: #004D44;
+	text-decoration:none;
+
+}
+
+#column1 a:hover{
+	
+	color: #fffcc0;
+
+}
+
+#column2{
+	background-color: #F5A800;
+	width: 920px;/*width=260px */
+	height: 190px;
+	float:left;
+	margin-top: 5px;
+	padding-top: 110px;
+	padding-left: 20px;
+	padding-right: 20px;
+	text-align: center;
+}
+
+#column2 h1 a:link, h1 a:visited{
+	font-size: 80px;
+	text-align: center;
+	color: #004D44;
+	text-decoration:none;
+
+}
+
+#column2 a:hover{
+	
+	color: #fffcc0;
+}
+
+#column3{
+	background-color: #F5A800;
+	width: 920px;/*width=260px */
+	height: 190px;
+	float:left;
+	margin-top: 5px;
+	padding-top: 110px;
+	padding-left: 20px;
+	padding-right: 20px;
+	text-align: center;
+}
+
+#column3 h1 a:link, h1 a:visited{
+	font-size: 80px;
+	text-align: center;
+	color: #004D44;
+	text-decoration:none;
+
+}
+
+#column3 a:hover{
+	
+	color: #fffcc0;
+}
+
+#column4{
+	background-color: #F5A800;
+	width: 920px;/*width=260px */
+	height: 190px;
+	float:left;
+	margin-top: 5px;
+	padding-top: 110px;
+	padding-left: 20px;
+	padding-right: 20px;
+	text-align: center;
+}
+
+#column4 h1 a:link, h1 a:visited{
+	font-size: 80px;
+	text-align: center;
+	color: #004D44;
+	text-decoration:none;
+
+}
+
+#column4 a:hover{
+	
+	color: #fffcc0;
+}
+
+footer{
+	background-color: #eeeeee;
+	clear: left;
+}
+
+/* apply the following style only if the screen is 768px or less
+@media screen and (max-width: 768px){
+
+ body{
+ 	background-color: red;
+ }
+
+ .container{
+ 	width:100%;
+ }
+ aside{
+ 	float:none;
+ 	width: 100%;
+ }
+ section{
+ 	float: none;
+ 	width: 100%;
+ }
+}
+
+*/
